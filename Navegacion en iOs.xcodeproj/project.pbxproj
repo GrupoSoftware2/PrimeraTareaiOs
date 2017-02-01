@@ -13,6 +13,8 @@
 		FBCE1CE81E41650C002A8FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBCE1CE71E41650C002A8FE7 /* Assets.xcassets */; };
 		FBCE1CEB1E41650C002A8FE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBCE1CE91E41650C002A8FE7 /* LaunchScreen.storyboard */; };
 		FBCE1CF31E416E80002A8FE7 /* NuevoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCE1CF21E416E80002A8FE7 /* NuevoViewController.swift */; };
+		FBCE1CF51E417F9A002A8FE7 /* TerceraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCE1CF41E417F9A002A8FE7 /* TerceraViewController.swift */; };
+		FBCE1CF71E417FB1002A8FE7 /* CuartaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCE1CF61E417FB1002A8FE7 /* CuartaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FBCE1CEA1E41650C002A8FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBCE1CEC1E41650C002A8FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBCE1CF21E416E80002A8FE7 /* NuevoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NuevoViewController.swift; sourceTree = "<group>"; };
+		FBCE1CF41E417F9A002A8FE7 /* TerceraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerceraViewController.swift; sourceTree = "<group>"; };
+		FBCE1CF61E417FB1002A8FE7 /* CuartaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuartaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				FBCE1CE91E41650C002A8FE7 /* LaunchScreen.storyboard */,
 				FBCE1CEC1E41650C002A8FE7 /* Info.plist */,
 				FBCE1CF21E416E80002A8FE7 /* NuevoViewController.swift */,
+				FBCE1CF41E417F9A002A8FE7 /* TerceraViewController.swift */,
+				FBCE1CF61E417FB1002A8FE7 /* CuartaViewController.swift */,
 			);
 			path = "Navegacion en iOs";
 			sourceTree = "<group>";
@@ -142,6 +148,8 @@
 				FBCE1CF31E416E80002A8FE7 /* NuevoViewController.swift in Sources */,
 				FBCE1CE31E41650C002A8FE7 /* ViewController.swift in Sources */,
 				FBCE1CE11E41650C002A8FE7 /* AppDelegate.swift in Sources */,
+				FBCE1CF71E417FB1002A8FE7 /* CuartaViewController.swift in Sources */,
+				FBCE1CF51E417F9A002A8FE7 /* TerceraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

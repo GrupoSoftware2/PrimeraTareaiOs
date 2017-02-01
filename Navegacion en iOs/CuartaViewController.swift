@@ -1,5 +1,5 @@
 //
-//  NuevoViewController.swift
+//  CuartaViewController.swift
 //  Navegacion en iOs
 //
 //  Created by alumno on 31/01/17.
@@ -8,12 +8,18 @@
 
 import UIKit
 
-class NuevoViewController: ViewController {
+class CuartaViewController: ViewController {
 
+    var parametro:String = ""
+    
+    @IBOutlet weak var lblParametro: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup /Users/alumno/Desktop/Navegacion en iOs/Navegacion en iOs/TerceraViewController.swiftafter loading the view.
+        lblParametro.text = parametro
+        
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,9 +27,6 @@ class NuevoViewController: ViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func btnRegresarTouch(_ sender: UIButton) {
-        self.navigationController?.popViewController(animated: true)
-    }
 
     /*
     // MARK: - Navigation
@@ -34,7 +37,5 @@ class NuevoViewController: ViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    
-    
 
 }

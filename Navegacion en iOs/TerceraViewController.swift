@@ -1,5 +1,5 @@
 //
-//  NuevoViewController.swift
+//  TerceraViewController.swift
 //  Navegacion en iOs
 //
 //  Created by alumno on 31/01/17.
@@ -8,12 +8,16 @@
 
 import UIKit
 
-class NuevoViewController: ViewController {
+class TerceraViewController: ViewController {
 
+    
+    @IBOutlet weak var txtParametro: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup /Users/alumno/Desktop/Navegacion en iOs/Navegacion en iOs/TerceraViewController.swiftafter loading the view.
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,8 +25,12 @@ class NuevoViewController: ViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func btnRegresarTouch(_ sender: UIButton) {
-        self.navigationController?.popViewController(animated: true)
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let cuartaViewController:CuartaViewController = segue.destination as! CuartaViewController
+        
+        cuartaViewController.parametro = txtParametro.text!
+        
     }
 
     /*
