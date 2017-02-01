@@ -21,5 +21,10 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func btnNavegacionCodigoTouch(_ sender: UIButton) {
+        
+        self.performSegue(withIdentifier: "transicion", sender: sender)
+    }
+    
 }
 
